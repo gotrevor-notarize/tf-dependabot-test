@@ -14,18 +14,18 @@ provider "aws" {
   alias  = "us-east-1"
 }
 
-module "label-24" {
-  source  = "cloudposse/label/null"
-  version = "0.24.1"
-
-  name        = "test-name"
-  environment = "test2"
-}
-
 module "label-25" {
   source  = "cloudposse/label/null"
   version = "0.25.0"
 
   name        = "test-name"
   environment = "test"
+}
+
+module "label-24" {
+  source  = "cloudposse/label/null"
+  version = "0.24.1"
+
+  name        = "test-name"
+  environment = "test2"
 }
