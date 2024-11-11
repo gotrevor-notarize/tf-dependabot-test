@@ -1,6 +1,6 @@
 version: 2
 updates:
   - package-ecosystem: terraform
-    directory: /layers/test
+    directory: /
     schedule:
       interval: daily
