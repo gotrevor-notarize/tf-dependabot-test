@@ -24,7 +24,7 @@ module "label-25" {
 
 module "label-24" {
   source  = "cloudposse/label/null"
-  version = "0.24.1"
+  version = "0.25.0"
 
   name        = "test-name"
   environment = "test2"
